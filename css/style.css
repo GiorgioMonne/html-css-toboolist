@@ -5,32 +5,145 @@
 }
 
 .container-low{
-    width: 80%;
-    margin:auto;
+    width: 100%;
+    /* margin:auto; */
 } 
 
 #logo{
     height: 70px;
     vertical-align: middle;
-    margin: 10px 0;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .logo-text{
-    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
     margin-top: 5px;
     vertical-align: middle;
 }
 
-.container-low2{
-    width: 80%;
-    margin:auto;
-    background-color: rgb(235, 229, 229);
-} 
+.corpo{
+    width: 100%;
+    /* margin:auto; */
+    background-color: rgb(219, 217, 217);
+    position: absolute;
 
-.task{
-   width: 60%;
-   margin-left: 20%;
-} 
+}
+
+.scritta{
+    padding-top: 15px;
+    padding-left: 35px;
+    width: 60%;
+    margin: auto;    
+    margin-top: 60px;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: white;
+    
+}
 
 .button{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+    padding: 5px 5px;
+    color: rgba(128, 128, 128, 0.658);
+} 
+.button-blue{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+    padding: 5px 5px;
+    color: white;
+    background-color: blue;
+}
+
+.scelte{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+
+
+}
+
+.prim{
+    margin-top: 30px;
+
+}
+
+.sec{
+    margin-top: 20px;
+}
+
+.terz{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.spa{
+    margin-top: 15px;
+}
+
+.editor{
+    border-radius: 30px;
+    background: #2568f8;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    color: white;
+    font-size: 15px;
+}
+
+.goals{
+    border-radius: 30px;
+    background: #b525f8;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    color: white;
+    font-size: 15px;
+}
+
+.recr{
+    border-radius: 30px;
+    background: #25f896;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    color: white;
+    font-size: 15px;
+}
+
+.mobile{
+    border-radius: 30px;
+    background: #f8ae25;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    color: white;
+    font-size: 15px;
+}
+
+.web{
+    border-radius: 30px;
+    background: #f8258f;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    color: white;
+    font-size: 15px;
+}
+
+.sales{
+    border-radius: 30px;
+    background: #25f848;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 15px;
 }
