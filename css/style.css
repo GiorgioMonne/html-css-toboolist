@@ -1,5 +1,36 @@
-* {
-    margine :  0 ;
-    imbottitura :  0 ;
-    box-size : border-box;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-low{
+    width: 80%;
+    margin:auto;
+} 
+
+#logo{
+    height: 70px;
+    vertical-align: middle;
+    margin: 10px 0;
+}
+
+.logo-text{
+    font-size: 60px;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+.container-low2{
+    width: 80%;
+    margin:auto;
+    background-color: rgb(235, 229, 229);
+} 
+
+.task{
+   width: 60%;
+   margin-left: 20%;
+} 
+
+.button{
 }
